@@ -1,0 +1,72 @@
+{
+  "entities": {
+    "User": {
+      "collection": "users",
+      "fields": {
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "lastLoginAt": { "type": "string" },
+        "totalMessages": { "type": "number" },
+        "subscriptionTier": { "type": "string" },
+        "subscriptionStatus": { "type": "string" },
+        "subscriptionExpiresAt": { "type": "string" }
+      }
+    },
+    "SubscriptionPlan": {
+      "collection": "subscriptions",
+      "fields": {
+        "name": { "type": "string" },
+        "priceMonthly": { "type": "number" },
+        "currency": { "type": "string" },
+        "description": { "type": "string" },
+        "features": { "type": "array" },
+        "modelAccess": { "type": "array" },
+        "maxLettersPerQuestion": { "type": "number" },
+        "badge": { "type": "string" },
+        "isActive": { "type": "boolean" },
+        "color": { "type": "string" },
+        "createdAt": { "type": "string" }
+      }
+    },
+    "AppVersion": {
+      "collection": "versions",
+      "fields": {
+        "versionNumber": { "type": "string" },
+        "releaseDate": { "type": "string" },
+        "title": { "type": "string" },
+        "changelog": { "type": "array" },
+        "status": { "type": "string" },
+        "recommendedModel": { "type": "string" },
+        "isCurrent": { "type": "boolean" }
+      }
+    },
+    "AppSettings": {
+      "collection": "settings",
+      "fields": {
+        "appName": { "type": "string" },
+        "appDescription": { "type": "string" },
+        "welcomeHeadline": { "type": "string" },
+        "welcomeSubtitle": { "type": "string" },
+        "defaultModel": { "type": "string" },
+        "systemInstruction": { "type": "string" },
+        "requireCaptcha": { "type": "boolean" },
+        "maintenanceMode": { "type": "boolean" },
+        "announcementActive": { "type": "boolean" },
+        "announcementText": { "type": "string" }
+      }
+    },
+    "ActivityLog": {
+      "collection": "activityLogs",
+      "fields": {
+        "action": { "type": "string" },
+        "actorEmail": { "type": "string" },
+        "target": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "details": { "type": "string" }
+      }
+    }
+  }
+}

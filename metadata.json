@@ -1,0 +1,6 @@
+{
+  "name": "Soul Lost",
+  "description": "Soul Lost - An intelligent, multimodal AI assistant with A-to-Z Admin Command Center, customizable interface controls, real-time user management, Google Sign-in, anti-bot CAPTCHA, web search grounding, image studio, and vision analysis.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
