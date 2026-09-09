@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: soullost-ai
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: APP_URL
+        sync: false
