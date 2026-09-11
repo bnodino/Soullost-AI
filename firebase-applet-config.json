@@ -1,12 +1,9 @@
 {
-  "projectId": "excellent-gantry-gq6d2",
-  "appId": "1:108157466587:web:47361dad9f30ad071659fe",
-  "apiKey": "AIzaSyBw8Gez7Znx602gRBS3XpvvlMUUXHFXvLY",
-  "authDomain": "excellent-gantry-gq6d2.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-fruitfly-560a1b3c-eb73-4760-b3f7-7c37f33e19c0",
-  "storageBucket": "excellent-gantry-gq6d2.firebasestorage.app",
-  "messagingSenderId": "108157466587",
-  "measurementId": "",
-  "oAuthClientId": "108157466587-b4l4ktoebdgqo98m640cuenb11ft3rcv.apps.googleusercontent.com",
-  "recaptchaSiteKey": ""
+  "projectId": "soul-lost",
+  "appId": "1:529422058475:web:a7dc1794edc2e7aa848fae",
+  "apiKey": "AIzaSyCwvgrUibZTlLUhSKxI_gBjhyKpJpYDdX4",
+  "authDomain": "soul-lost.firebaseapp.com",
+  "storageBucket": "soul-lost.firebasestorage.app",
+  "messagingSenderId": "529422058475",
+  "measurementId": "G-4ZDHWJ9FPE"
 }
